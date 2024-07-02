@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+tokio = { version = "1.35.1", features = ["full"] }
+clap = "4.5.8"
+zenoh = "0.11.0"
+zenoh-ext-examples = "0.11.0-rc.1"
+zenoh-util = "0.11.0"
+sabaton-mw = { path = "../sabaton-mw"}
+dc-meter-service = { path = "/home/kevin/Documents/Modbus/dc-meter-service"}
+serde = "1.0.203"
